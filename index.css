@@ -1,0 +1,189 @@
+.cont_bg{
+  background-color: #FDE36B;
+}
+.title_hd{
+  font-family: serif;
+  font-size: 30px !important;
+  font-weight: bold;
+}
+.banner{
+  height: 450px;
+  width: 100%;
+  background-color: gray;
+  background-image: url("banner.jpg");
+  background-size: cover;
+   display: flex;
+   justify-content: center;
+}
+.banner_cont{
+  background-color: rgba(0,0,0,0.7);
+  height: 200px;
+  width: 40%;
+}
+.banner_title{
+  color: white;
+  text-align: center;
+  font-family: cursive ;
+}
+.ban_text{
+ text-align: center;
+ color: white;
+ font-family: fantasy;
+   font-size: 17px;
+   padding:5px;
+
+}
+.food_title{
+  text-align: center;
+ border: 1px solid #000;
+  font-family: georgia  ;
+}
+.food_container{
+  background-color:#DADADA;
+}
+
+.food_hd{
+  font-family: impact, cursive;
+  color: white;
+}
+.food_des{
+  padding: 5px;
+  color: white;
+  font-family: fantasy;
+}
+
+.btn_my{
+  margin-top:24px;
+}
+.card_body{
+  background-color: black;
+}
+
+.main{
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+
+
+}
+.main_ch{
+  height: 400px;
+  width: 500%;
+  background-color:red;
+  display: flex;
+  animation-name: slider;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+  
+  
+}
+.ele{
+  background-color: green;
+  height: 400px;
+  width: 20%;
+  background-size: 100% 100%;
+ display: flex;
+ justify-content:center;
+ align-items: center;
+}
+.ele_data{
+  background-size: auto;
+
+  width: 40%;
+  background-color: rgba(0,0,0,0.7)
+}
+.ele_hd{
+  color:#FFFFFF;
+  font-family: impact, cursive;
+  text-align: center;
+}
+.ele_add{
+  color: white;
+  font-family: fantasy;
+  padding:4px;
+}
+.heading_slider{
+   padding-top:10px;
+  text-align: center;
+  font-family: georgia;
+  color: white;
+}
+
+.ele:nth-child(1){
+  background-image: url(Ars.jpeg);
+ 
+
+}
+
+.ele:nth-child(2){
+  background-image: url(zees.jpeg);
+}
+
+.ele:nth-child(3){
+  background-image: url(Zan.jpeg);
+}
+
+.ele:nth-child(4){
+  background-image: url(Ind.jpeg);
+}
+
+.ele:nth-child(5){
+  background-image: url(Ars.jpeg);
+}
+
+@keyframes slider{
+  
+  12.5%{
+    margin-left: -100%;
+  }
+  
+  25%{
+    margin-left: -100%;
+  }
+  
+  37.5%{
+    margin-left: -200%;
+  }
+  50%{
+    margin-left: -200%;
+  }
+  62.5%{
+    margin-left: -300%;
+  }
+  
+  75%{
+    margin-left: -300%;
+  }
+  87.5%{
+    margin-left: -400%
+  }
+  
+  
+  100%{
+    margin-left: -400%
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+  .banner{
+  height: 250px;
+  }
+  .banner_cont{
+    height: 230px;
+  }
+ .ele_add{
+   font-size: 7px;
+ }
+  }
+
